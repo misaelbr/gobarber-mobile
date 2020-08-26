@@ -3,7 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Dashboard from '../pages/Dashboard';
 import Profile from '../pages/Profile';
-import CreateAppointment from '../pages/CreateAppointment/intex';
+import CreateAppointment from '../pages/CreateAppointment';
 import AppointmentCreated from '../pages/AppointmentCreated';
 
 const App = createStackNavigator();

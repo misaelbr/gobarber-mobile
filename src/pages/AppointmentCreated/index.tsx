@@ -35,7 +35,7 @@ const AppointmentCreated: React.FC = () => {
       "EEEE ', dia' dd 'de' MMMM 'de' yyyy 'às' HH:mm",
       { locale: ptBR },
     );
-  }, [format, routeParams.date]);
+  }, [routeParams.date]);
 
   return (
     <Container>
